@@ -1,0 +1,59 @@
+#Vegetarian::after {
+  height: 25%;
+  content: "Vegetarian";
+  color: white;
+  position: absolute;
+  left: 50%;
+  bottom: 0%;
+  transform: translate(-50%, 0%);
+  white-space: pre;
+  font-weight: bold;
+}
+
+#Vegetarian:hover,
+#Ketogenic:hover,
+#Vegan:hover,
+#GlutenFree:hover {
+  filter: opacity(0.75);
+}
+
+#Ketogenic::after {
+  height: 25%;
+  content: "Ketogenic";
+  color: white;
+  position: absolute;
+  left: 50%;
+  bottom: 0%;
+  transform: translate(-50%, 0%);
+  white-space: pre;
+  font-weight: bold;
+}
+
+#Vegan::after {
+  height: 25%;
+  content: "Vegan";
+  color: white;
+  position: absolute;
+  left: 50%;
+  bottom: 0%;
+  transform: translate(-50%, 0%);
+  white-space: pre;
+  font-weight: bold;
+}
+#GlutenFree::after {
+  height: 25%;
+  content: "Gluten Free";
+  color: white;
+  position: absolute;
+  left: 50%;
+  bottom: 0%;
+  transform: translate(-50%, 0%);
+  white-space: pre;
+  font-weight: bold;
+}
+
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
